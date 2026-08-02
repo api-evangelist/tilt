@@ -1,8 +1,25 @@
 aid: tilt
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tilt.png
 name: Tilt
-description: Tilt is a company surfaced as a portfolio company of a16z, earlybird, initialized-capital,
-  seedcamp, slow-ventures, techstars and added to the API Evangelist network as a stub for enrichment.
-  This profile is a lead awaiting the enrichment pipeline.
+description: 'Tilt is a consumer fintech mobile app for building and rebuilding credit.
+  It offers cash advances of up to $400, a line of credit with potential limit increases,
+  and three credit cards (Essentials, Motion, and Engage), evaluating applicants from
+  real-time bank-linked financial data rather than credit history alone. The app adds
+  credit-score monitoring with personalized tips, customizable budgeting and spend
+  tracking, AI-assisted automatic savings, and on-time-payment rewards, for an $8/month
+  subscription after a 14-day trial. Tilt is a consumer application with no public
+  developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/tilt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -17,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Credit Building
+- Lending
+- Cash Advance
+- Credit Cards
+- Personal Finance
+- Consumer Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -29,3 +54,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.tilt.com/
+- type: Blog
+  url: https://www.tilt.com/blog
+- type: TermsOfService
+  url: https://www.tilt.com/terms
+- type: PrivacyPolicy
+  url: https://www.tilt.com/privacy
+- type: DomainSecurity
+  url: security/tilt-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
